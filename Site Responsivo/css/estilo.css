@@ -1,0 +1,69 @@
+/* Formataçao Geral
+*/
+body{
+	font-family: "Patrick+Hand", pattaya, cursive;
+
+}
+
+h1,h2,h3{
+
+	margin: 0;
+	font-family: Pattaya, cursive; 
+	font-weight: 700;
+}
+p{
+    font-family: Neucha, "PT+Serif" cursive;
+
+}
+/*cabeçalho ou barra de navegaçao*/
+.logo img{
+	border-radius: 50%;
+}
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: 	#FF69B4;
+	padding: 15px;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%
+
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+@media screen and (min-width: 768px){
+/* Cabeçalho ou barra de navegaçao*/
+nav{
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav ul{
+	flex-direction: row;
+	width: 70%
+}
