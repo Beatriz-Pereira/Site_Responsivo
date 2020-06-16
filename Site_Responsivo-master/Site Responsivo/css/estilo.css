@@ -186,7 +186,104 @@ header p{
 	line-height: 2.0;
 }
 
+.trab img:hover{
+	top:-20px; 
+	box-shadow:0 10px 10px #666
+}
+.trab img{
+	position:relative
+}
+.trab img{
+    padding: 2px;
+    border:10px double 	#9932CC;
 
+}
+
+/*hobbyes*/
+
+#hobby{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+
+}
+
+#hobby h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2ex;
+	text-align: center;
+}
+
+.hobby{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+
+.hobby h3{
+	font-size: 1.5px;
+	margin-top: 30px;
+	margin-bottom: 14px;
+
+}
+
+/*hobby*/
+/*contato*/
+
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #FF69B4;
+	width: 100%;
+}
+#contato h2{
+	margin-left: 20px;
+	margin-width:20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+}
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+}
+
+#contato a{
+	text-decoration: none;
+	color:#fff;
+	font-family: "Gochi hand","helvetica","arial", sans-serif;
+	text-align: center;
+}
+/*contato*/
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color:#FF1493;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+#hobby h3 {
+	padding:25px;
+	text-align: center;
+
+}
+#hobby .desenho {
+	padding: 20px;
+	align-items: center;
+}
 
 @media screen and (min-width: 768px){
 /* Cabeçalho ou barra de navegaçao*/
@@ -252,10 +349,35 @@ header{
  	width: 100%;
  	text-align: center;
  }
-
+ 
  #competencias .comp{
  	width: 30%;
  	text-align: center;
  	padding-right: 45px;
  	padding-left: 120px;
  }
+ /*contato*/
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+
+#contato h2,
+#contato p{
+	width: 100%;
+	text-align: center;
+}
+
+#hobby h3 {
+	padding-top: 25px;
+
+}
+#hobby .desenho {
+	padding: 20px;
+}
